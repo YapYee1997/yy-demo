@@ -1,0 +1,701 @@
+2025-03-02T01:38:29.572+08:00  INFO 5280 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Starting YyDemoApplicationTests using Java 23.0.2 with PID 5280 (started by User in D:\Eclipse\yy-demo)
+2025-03-02T01:38:29.573+08:00  INFO 5280 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T01:38:30.130+08:00  INFO 5280 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T01:38:30.187+08:00  INFO 5280 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-03-02T01:38:30.641+08:00  INFO 5280 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T01:38:30.691+08:00  INFO 5280 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T01:38:30.726+08:00  INFO 5280 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T01:38:31.043+08:00  INFO 5280 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T01:38:31.075+08:00  INFO 5280 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T01:38:31.365+08:00  INFO 5280 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 81a0f5b2-7529-434b-951c-c82b63077e07
+2025-03-02T01:38:31.367+08:00  INFO 5280 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T01:38:31.418+08:00  WARN 5280 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T01:38:31.441+08:00  INFO 5280 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T01:38:32.175+08:00  INFO 5280 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T01:38:32.424+08:00  INFO 5280 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T01:38:32.779+08:00  WARN 5280 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T01:38:33.099+08:00  INFO 5280 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Started YyDemoApplicationTests in 3.818 seconds (process running for 4.7)
+2025-03-02T01:38:33.560+08:00  INFO 5280 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T01:38:33.562+08:00  INFO 5280 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T01:38:33.565+08:00  INFO 5280 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T01:38:57.317+08:00  INFO 14032 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 14032 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T01:38:57.320+08:00  INFO 14032 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T01:38:57.800+08:00  INFO 14032 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T01:38:57.844+08:00  INFO 14032 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2025-03-02T01:38:58.246+08:00  INFO 14032 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T01:38:58.257+08:00  INFO 14032 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T01:38:58.258+08:00  INFO 14032 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T01:38:58.301+08:00  INFO 14032 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T01:38:58.301+08:00  INFO 14032 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 938 ms
+2025-03-02T01:38:58.477+08:00  INFO 14032 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T01:38:58.521+08:00  INFO 14032 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T01:38:58.556+08:00  INFO 14032 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T01:38:58.786+08:00  INFO 14032 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T01:38:58.816+08:00  INFO 14032 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T01:38:59.115+08:00  INFO 14032 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c8021a2f-742d-4e1b-b775-3cffd29a4ec2
+2025-03-02T01:38:59.118+08:00  INFO 14032 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T01:38:59.167+08:00  WARN 14032 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T01:38:59.187+08:00  INFO 14032 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T01:38:59.841+08:00  INFO 14032 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T01:39:00.076+08:00  INFO 14032 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T01:39:00.293+08:00  WARN 14032 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T01:39:00.570+08:00  INFO 14032 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T01:39:00.576+08:00  INFO 14032 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.634 seconds (process running for 3.952)
+2025-03-02T01:39:10.825+08:00  INFO 14032 --- [yy-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T01:39:10.826+08:00  INFO 14032 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T01:39:10.827+08:00  INFO 14032 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T01:39:10.868+08:00  INFO 14032 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Received GET request for user ID: 1
+2025-03-02T01:39:10.911+08:00  INFO 14032 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Response: com.example.yy_demo.user.model.User@f57389f
+2025-03-02T01:49:23.272+08:00  INFO 14032 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T01:49:23.276+08:00  INFO 14032 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T01:49:23.278+08:00  INFO 14032 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T01:49:23.280+08:00  INFO 14032 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T01:49:23.282+08:00  INFO 14032 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T01:49:33.516+08:00  INFO 15332 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Starting YyDemoApplicationTests using Java 23.0.2 with PID 15332 (started by User in D:\Eclipse\yy-demo)
+2025-03-02T01:49:33.517+08:00  INFO 15332 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T01:49:34.076+08:00  INFO 15332 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T01:49:34.127+08:00  INFO 15332 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2025-03-02T01:49:34.591+08:00  INFO 15332 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T01:49:34.648+08:00  INFO 15332 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T01:49:34.680+08:00  INFO 15332 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T01:49:34.974+08:00  INFO 15332 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T01:49:35.005+08:00  INFO 15332 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T01:49:35.294+08:00  INFO 15332 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: d92cf975-6fdb-45a8-9b07-5fab69cddec0
+2025-03-02T01:49:35.296+08:00  INFO 15332 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T01:49:35.348+08:00  WARN 15332 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T01:49:35.370+08:00  INFO 15332 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T01:49:36.087+08:00  INFO 15332 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T01:49:36.313+08:00  INFO 15332 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T01:49:36.683+08:00  WARN 15332 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T01:49:37.006+08:00  INFO 15332 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Started YyDemoApplicationTests in 3.767 seconds (process running for 4.645)
+2025-03-02T01:49:37.567+08:00  INFO 15332 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T01:49:37.569+08:00  INFO 15332 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T01:49:37.572+08:00  INFO 15332 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T01:49:47.482+08:00  INFO 14528 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 14528 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T01:49:47.483+08:00  INFO 14528 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T01:49:48.014+08:00  INFO 14528 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T01:49:48.318+08:00  INFO 14528 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2025-03-02T01:49:48.847+08:00  INFO 14528 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T01:49:48.861+08:00  INFO 14528 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T01:49:48.861+08:00  INFO 14528 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T01:49:48.909+08:00  INFO 14528 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T01:49:48.910+08:00  INFO 14528 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1375 ms
+2025-03-02T01:49:49.104+08:00  INFO 14528 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T01:49:49.147+08:00  INFO 14528 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T01:49:49.182+08:00  INFO 14528 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T01:49:49.424+08:00  INFO 14528 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T01:49:49.456+08:00  INFO 14528 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T01:49:49.765+08:00  INFO 14528 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 72499375-4df5-4ccd-a540-b6cf8e7dc789
+2025-03-02T01:49:49.768+08:00  INFO 14528 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T01:49:49.802+08:00  WARN 14528 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T01:49:49.822+08:00  INFO 14528 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T01:49:50.462+08:00  INFO 14528 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T01:49:50.533+08:00  INFO 14528 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T01:49:50.752+08:00  WARN 14528 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T01:49:51.017+08:00  INFO 14528 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T01:49:51.024+08:00  INFO 14528 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.96 seconds (process running for 4.336)
+2025-03-02T01:50:01.156+08:00  INFO 14528 --- [yy-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T01:50:01.157+08:00  INFO 14528 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T01:50:01.158+08:00  INFO 14528 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T01:50:01.199+08:00  INFO 14528 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Received GET request for user ID: 1
+2025-03-02T01:50:01.242+08:00  INFO 14528 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Mark Yap, email=markyap.1997@gmail.com]
+2025-03-02T02:00:55.081+08:00  WARN 14528 --- [yy-demo] [http-nio-8080-exec-8] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-03-02T02:55:41.015+08:00  INFO 14528 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T02:55:41.021+08:00  INFO 14528 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T02:55:41.023+08:00  INFO 14528 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T02:55:41.025+08:00  INFO 14528 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T02:55:41.027+08:00  INFO 14528 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T02:55:52.238+08:00  INFO 4820 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Starting YyDemoApplicationTests using Java 23.0.2 with PID 4820 (started by User in D:\Eclipse\yy-demo)
+2025-03-02T02:55:52.240+08:00  INFO 4820 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T02:55:52.801+08:00  INFO 4820 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T02:55:52.854+08:00  INFO 4820 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2025-03-02T02:55:53.395+08:00  INFO 4820 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T02:55:53.460+08:00  INFO 4820 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T02:55:53.498+08:00  INFO 4820 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T02:55:53.829+08:00  INFO 4820 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T02:55:53.862+08:00  INFO 4820 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T02:55:54.207+08:00  INFO 4820 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: dc109b42-f931-473f-afee-81ca1f364e0b
+2025-03-02T02:55:54.209+08:00  INFO 4820 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T02:55:54.272+08:00  WARN 4820 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T02:55:54.305+08:00  INFO 4820 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T02:55:55.192+08:00  INFO 4820 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T02:55:55.473+08:00  INFO 4820 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T02:55:55.889+08:00  WARN 4820 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T02:55:56.313+08:00  INFO 4820 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Started YyDemoApplicationTests in 4.464 seconds (process running for 5.424)
+2025-03-02T02:55:56.815+08:00  INFO 4820 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T02:55:56.820+08:00  INFO 4820 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T02:55:56.823+08:00  INFO 4820 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T02:56:11.442+08:00  INFO 12740 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 12740 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T02:56:11.443+08:00  INFO 12740 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T02:56:11.937+08:00  INFO 12740 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T02:56:11.983+08:00  INFO 12740 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-03-02T02:56:12.403+08:00  INFO 12740 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T02:56:12.415+08:00  INFO 12740 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T02:56:12.416+08:00  INFO 12740 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T02:56:12.461+08:00  INFO 12740 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T02:56:12.461+08:00  INFO 12740 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 973 ms
+2025-03-02T02:56:12.638+08:00  INFO 12740 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T02:56:12.678+08:00  INFO 12740 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T02:56:12.710+08:00  INFO 12740 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T02:56:12.936+08:00  INFO 12740 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T02:56:12.968+08:00  INFO 12740 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T02:56:13.275+08:00  INFO 12740 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 2a85e16a-72ba-44ac-b880-a5bbfa9c26d8
+2025-03-02T02:56:13.277+08:00  INFO 12740 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T02:56:13.326+08:00  WARN 12740 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T02:56:13.346+08:00  INFO 12740 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T02:56:13.978+08:00  INFO 12740 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T02:56:14.219+08:00  INFO 12740 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T02:56:14.446+08:00  WARN 12740 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T02:56:14.729+08:00  INFO 12740 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T02:56:14.736+08:00  INFO 12740 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.681 seconds (process running for 4.012)
+2025-03-02T02:57:55.315+08:00  INFO 12740 --- [yy-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T02:57:55.316+08:00  INFO 12740 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T02:57:55.317+08:00  INFO 12740 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T02:57:55.332+08:00  WARN 12740 --- [yy-demo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-02T02:58:19.702+08:00  INFO 12740 --- [yy-demo] [http-nio-8080-exec-3] c.e.yy_demo.user.service.UserService     : Received request: {name=Yap Yee, email=yapyee.1997@gmail.com}
+2025-03-02T02:58:19.719+08:00  INFO 12740 --- [yy-demo] [http-nio-8080-exec-3] c.e.yy_demo.user.service.UserService     : Response: User [id=null, name=Yap Yee, email=yapyee.1997@gmail.com]
+2025-03-02T03:03:51.379+08:00  INFO 12740 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T03:03:51.383+08:00  INFO 12740 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T03:03:51.386+08:00  INFO 12740 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:03:51.388+08:00  INFO 12740 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:03:51.390+08:00  INFO 12740 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:06:39.435+08:00  INFO 14036 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 14036 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:06:39.437+08:00  INFO 14036 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:06:39.893+08:00  INFO 14036 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:06:39.936+08:00  INFO 14036 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-03-02T03:06:40.330+08:00  INFO 14036 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T03:06:40.342+08:00  INFO 14036 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T03:06:40.343+08:00  INFO 14036 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T03:06:40.386+08:00  INFO 14036 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T03:06:40.386+08:00  INFO 14036 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 907 ms
+2025-03-02T03:06:40.553+08:00  INFO 14036 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:06:40.593+08:00  INFO 14036 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:06:40.626+08:00  INFO 14036 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:06:40.845+08:00  INFO 14036 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:06:40.878+08:00  INFO 14036 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:06:41.178+08:00  INFO 14036 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e1bf167d-5b36-4f3e-8fa0-af865cd85b31
+2025-03-02T03:06:41.182+08:00  INFO 14036 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:06:41.228+08:00  WARN 14036 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:06:41.245+08:00  INFO 14036 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:06:41.849+08:00  INFO 14036 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:06:42.073+08:00  INFO 14036 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:06:42.285+08:00  WARN 14036 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:06:42.544+08:00  INFO 14036 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T03:06:42.550+08:00  INFO 14036 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.489 seconds (process running for 3.802)
+2025-03-02T03:06:53.799+08:00  INFO 14036 --- [yy-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T03:06:53.800+08:00  INFO 14036 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T03:06:53.801+08:00  INFO 14036 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T03:06:53.872+08:00  WARN 14036 --- [yy-demo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (']' (code 93)): expected a value]
+2025-03-02T03:09:40.662+08:00  INFO 14036 --- [yy-demo] [http-nio-8080-exec-4] c.e.yy_demo.user.service.UserService     : Received request: [{name=Yap Yee 1, email=yapyee.1@gmail.com}, {name=Yap Yee 2, email=yapyee.2@gmail.com}, {name=Yap Yee 3, email=yapyee.3@gmail.com}, {name=Yap Yee 4, email=yapyee.4@gmail.com}, {name=Yap Yee 5, email=yapyee.5@gmail.com}, {name=Yap Yee 6, email=yapyee.6@gmail.com}, {name=Yap Yee 7, email=yapyee.7@gmail.com}, {name=Yap Yee 8, email=yapyee.8@gmail.com}, {name=Yap Yee 9, email=yapyee.9@gmail.com}, {name=Yap Yee 10, email=yapyee.10@gmail.com}, {name=Yap Yee 11, email=yapyee.11@gmail.com}, {name=Yap Yee 12, email=yapyee.12@gmail.com}, {name=Yap Yee 13, email=yapyee.13@gmail.com}, {name=Yap Yee 14, email=yapyee.14@gmail.com}, {name=Yap Yee 15, email=yapyee.15@gmail.com}, {name=Yap Yee 16, email=yapyee.16@gmail.com}, {name=Yap Yee 17, email=yapyee.17@gmail.com}, {name=Yap Yee 18, email=yapyee.6@gmail.com}, {name=Yap Yee 19, email=yapyee.19@gmail.com}, {name=Yap Yee 20, email=yapyee.20@gmail.com}, {name=Yap Yee 21, email=yapyee.21@gmail.com}, {name=Yap Yee 22, email=yapyee.22@gmail.com}]
+2025-03-02T03:09:40.681+08:00  INFO 14036 --- [yy-demo] [http-nio-8080-exec-4] c.e.yy_demo.user.service.UserService     : Response: [User [id=null, name=Yap Yee 1, email=yapyee.1@gmail.com], User [id=null, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=null, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=null, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=null, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=null, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=null, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=null, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=null, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=null, name=Yap Yee 10, email=yapyee.10@gmail.com], User [id=null, name=Yap Yee 11, email=yapyee.11@gmail.com], User [id=null, name=Yap Yee 12, email=yapyee.12@gmail.com], User [id=null, name=Yap Yee 13, email=yapyee.13@gmail.com], User [id=null, name=Yap Yee 14, email=yapyee.14@gmail.com], User [id=null, name=Yap Yee 15, email=yapyee.15@gmail.com], User [id=null, name=Yap Yee 16, email=yapyee.16@gmail.com], User [id=null, name=Yap Yee 17, email=yapyee.17@gmail.com], User [id=null, name=Yap Yee 18, email=yapyee.6@gmail.com], User [id=null, name=Yap Yee 19, email=yapyee.19@gmail.com], User [id=null, name=Yap Yee 20, email=yapyee.20@gmail.com], User [id=null, name=Yap Yee 21, email=yapyee.21@gmail.com], User [id=null, name=Yap Yee 22, email=yapyee.22@gmail.com]]
+2025-03-02T03:10:51.448+08:00  INFO 14036 --- [yy-demo] [http-nio-8080-exec-6] c.e.yy_demo.user.service.UserService     : Received GET request for user
+2025-03-02T03:10:51.575+08:00  INFO 14036 --- [yy-demo] [http-nio-8080-exec-6] c.e.yy_demo.user.service.UserService     : Response: [User [id=1, name=Yap Yee 1, email=yapyee.1@gmail.com], User [id=2, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=3, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=4, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=5, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=6, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=7, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=8, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=9, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=10, name=Yap Yee 10, email=yapyee.10@gmail.com], User [id=11, name=Yap Yee 11, email=yapyee.11@gmail.com], User [id=12, name=Yap Yee 12, email=yapyee.12@gmail.com], User [id=13, name=Yap Yee 13, email=yapyee.13@gmail.com], User [id=14, name=Yap Yee 14, email=yapyee.14@gmail.com], User [id=15, name=Yap Yee 15, email=yapyee.15@gmail.com], User [id=16, name=Yap Yee 16, email=yapyee.16@gmail.com], User [id=17, name=Yap Yee 17, email=yapyee.17@gmail.com], User [id=18, name=Yap Yee 18, email=yapyee.6@gmail.com], User [id=19, name=Yap Yee 19, email=yapyee.19@gmail.com], User [id=20, name=Yap Yee 20, email=yapyee.20@gmail.com], User [id=21, name=Yap Yee 21, email=yapyee.21@gmail.com], User [id=22, name=Yap Yee 22, email=yapyee.22@gmail.com]]
+2025-03-02T03:11:48.158+08:00  INFO 14036 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T03:11:48.163+08:00  INFO 14036 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T03:11:48.166+08:00  INFO 14036 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:11:48.166+08:00  INFO 14036 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:11:48.168+08:00  INFO 14036 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:12:53.608+08:00  INFO 4780 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Starting YyDemoApplicationTests using Java 23.0.2 with PID 4780 (started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:12:53.609+08:00  INFO 4780 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:12:54.169+08:00  INFO 4780 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:12:54.225+08:00  INFO 4780 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2025-03-02T03:12:54.702+08:00  INFO 4780 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:12:54.751+08:00  INFO 4780 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:12:54.780+08:00  INFO 4780 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:12:55.075+08:00  INFO 4780 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:12:55.104+08:00  INFO 4780 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:12:55.382+08:00  INFO 4780 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 8143406d-04b2-40ff-834a-e831e95100d6
+2025-03-02T03:12:55.384+08:00  INFO 4780 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:12:55.437+08:00  WARN 4780 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:12:55.460+08:00  INFO 4780 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:12:56.166+08:00  INFO 4780 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:12:56.419+08:00  INFO 4780 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:12:56.791+08:00  WARN 4780 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:12:57.132+08:00  INFO 4780 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Started YyDemoApplicationTests in 3.807 seconds (process running for 4.68)
+2025-03-02T03:12:57.609+08:00  INFO 4780 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:12:57.611+08:00  INFO 4780 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:12:57.614+08:00  INFO 4780 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:13:06.973+08:00  INFO 13476 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 13476 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:13:06.975+08:00  INFO 13476 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:13:07.430+08:00  INFO 13476 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:13:07.473+08:00  INFO 13476 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2025-03-02T03:13:07.863+08:00  INFO 13476 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T03:13:07.875+08:00  INFO 13476 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T03:13:07.875+08:00  INFO 13476 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T03:13:07.917+08:00  INFO 13476 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T03:13:07.918+08:00  INFO 13476 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 902 ms
+2025-03-02T03:13:08.085+08:00  INFO 13476 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:13:08.124+08:00  INFO 13476 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:13:08.153+08:00  INFO 13476 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:13:08.366+08:00  INFO 13476 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:13:08.395+08:00  INFO 13476 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:13:08.689+08:00  INFO 13476 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: f1a9156d-8a5f-4f84-9668-500b39634a66
+2025-03-02T03:13:08.691+08:00  INFO 13476 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:13:08.736+08:00  WARN 13476 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:13:08.754+08:00  INFO 13476 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:13:09.357+08:00  INFO 13476 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:13:09.482+08:00  INFO 13476 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:13:09.693+08:00  WARN 13476 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:13:09.949+08:00  INFO 13476 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T03:13:09.955+08:00  INFO 13476 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.349 seconds (process running for 3.66)
+2025-03-02T03:13:26.149+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T03:13:26.149+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T03:13:26.150+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T03:13:26.177+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Received GET request for all users
+2025-03-02T03:13:26.307+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Response: [User [id=1, name=Yap Yee 1, email=yapyee.1@gmail.com], User [id=2, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=3, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=4, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=5, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=6, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=7, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=8, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=9, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=10, name=Yap Yee 10, email=yapyee.10@gmail.com], User [id=11, name=Yap Yee 11, email=yapyee.11@gmail.com], User [id=12, name=Yap Yee 12, email=yapyee.12@gmail.com], User [id=13, name=Yap Yee 13, email=yapyee.13@gmail.com], User [id=14, name=Yap Yee 14, email=yapyee.14@gmail.com], User [id=15, name=Yap Yee 15, email=yapyee.15@gmail.com], User [id=16, name=Yap Yee 16, email=yapyee.16@gmail.com], User [id=17, name=Yap Yee 17, email=yapyee.17@gmail.com], User [id=18, name=Yap Yee 18, email=yapyee.6@gmail.com], User [id=19, name=Yap Yee 19, email=yapyee.19@gmail.com], User [id=20, name=Yap Yee 20, email=yapyee.20@gmail.com], User [id=21, name=Yap Yee 21, email=yapyee.21@gmail.com], User [id=22, name=Yap Yee 22, email=yapyee.22@gmail.com]]
+2025-03-02T03:14:39.797+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-5] c.e.yy_demo.user.service.UserService     : Received GET request for user ID: 1
+2025-03-02T03:14:39.834+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-5] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1, email=yapyee.1@gmail.com]
+2025-03-02T03:15:38.348+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-6] c.e.yy_demo.user.service.UserService     : Received GET request for user page: 0
+2025-03-02T03:15:38.400+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-6] c.e.yy_demo.user.service.UserService     : Response: Page 1 of 3 containing com.example.yy_demo.user.model.User instances
+2025-03-02T03:15:38.404+08:00  WARN 13476 --- [yy-demo] [http-nio-8080-exec-6] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-03-02T03:16:02.003+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-7] c.e.yy_demo.user.service.UserService     : Received GET request for user page: 1
+2025-03-02T03:16:02.023+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-7] c.e.yy_demo.user.service.UserService     : Response: Page 2 of 3 containing com.example.yy_demo.user.model.User instances
+2025-03-02T03:16:11.418+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-8] c.e.yy_demo.user.service.UserService     : Received GET request for user page: 2
+2025-03-02T03:16:11.422+08:00  INFO 13476 --- [yy-demo] [http-nio-8080-exec-8] c.e.yy_demo.user.service.UserService     : Response: Page 3 of 3 containing com.example.yy_demo.user.model.User instances
+2025-03-02T03:20:12.547+08:00  INFO 13476 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T03:20:12.552+08:00  INFO 13476 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T03:20:12.554+08:00  INFO 13476 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:20:12.556+08:00  INFO 13476 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:20:12.558+08:00  INFO 13476 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:20:24.650+08:00  INFO 6868 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Starting YyDemoApplicationTests using Java 23.0.2 with PID 6868 (started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:20:24.652+08:00  INFO 6868 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:20:25.294+08:00  INFO 6868 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:20:25.352+08:00  INFO 6868 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2025-03-02T03:20:25.886+08:00  INFO 6868 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:20:25.946+08:00  INFO 6868 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:20:25.981+08:00  INFO 6868 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:20:26.319+08:00  INFO 6868 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:20:26.353+08:00  INFO 6868 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:20:26.658+08:00  INFO 6868 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 4a57eead-54d9-43fe-b3ee-262eeac4242c
+2025-03-02T03:20:26.660+08:00  INFO 6868 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:20:26.714+08:00  WARN 6868 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:20:26.739+08:00  INFO 6868 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:20:27.500+08:00  INFO 6868 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:20:27.742+08:00  INFO 6868 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:20:28.143+08:00  WARN 6868 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:20:28.479+08:00  INFO 6868 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Started YyDemoApplicationTests in 4.164 seconds (process running for 5.491)
+2025-03-02T03:20:28.979+08:00  INFO 6868 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:20:28.982+08:00  INFO 6868 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:20:28.985+08:00  INFO 6868 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:20:40.888+08:00  INFO 5588 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 5588 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:20:40.890+08:00  INFO 5588 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:20:41.381+08:00  INFO 5588 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:20:41.428+08:00  INFO 5588 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-03-02T03:20:41.841+08:00  INFO 5588 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T03:20:41.853+08:00  INFO 5588 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T03:20:41.853+08:00  INFO 5588 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T03:20:41.898+08:00  INFO 5588 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T03:20:41.899+08:00  INFO 5588 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2025-03-02T03:20:42.075+08:00  INFO 5588 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:20:42.116+08:00  INFO 5588 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:20:42.152+08:00  INFO 5588 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:20:42.379+08:00  INFO 5588 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:20:42.411+08:00  INFO 5588 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:20:42.718+08:00  INFO 5588 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 1222a747-5ce7-49ee-b98a-77b3c5af9803
+2025-03-02T03:20:42.721+08:00  INFO 5588 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:20:42.770+08:00  WARN 5588 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:20:42.788+08:00  INFO 5588 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:20:43.424+08:00  INFO 5588 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:20:43.658+08:00  INFO 5588 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:20:43.881+08:00  WARN 5588 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:20:44.159+08:00  INFO 5588 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T03:20:44.165+08:00  INFO 5588 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.664 seconds (process running for 3.982)
+2025-03-02T03:20:55.006+08:00  INFO 5588 --- [yy-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T03:20:55.008+08:00  INFO 5588 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T03:20:55.010+08:00  INFO 5588 --- [yy-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-02T03:20:55.047+08:00  INFO 5588 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Received GET request for user page: 0
+2025-03-02T03:20:55.183+08:00  INFO 5588 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Response: Page 0 of 3 - Total Users: 22, Current Page Users: [User [id=1, name=Yap Yee 1, email=yapyee.1@gmail.com], User [id=2, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=3, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=4, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=5, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=6, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=7, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=8, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=9, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=10, name=Yap Yee 10, email=yapyee.10@gmail.com]]
+2025-03-02T03:20:55.216+08:00  WARN 5588 --- [yy-demo] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-03-02T03:22:44.182+08:00  INFO 5588 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T03:22:44.188+08:00  INFO 5588 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T03:22:44.191+08:00  INFO 5588 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:22:44.193+08:00  INFO 5588 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:22:44.195+08:00  INFO 5588 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:22:54.302+08:00  INFO 460 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Starting YyDemoApplicationTests using Java 23.0.2 with PID 460 (started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:22:54.304+08:00  INFO 460 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:22:54.869+08:00  INFO 460 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:22:54.922+08:00  INFO 460 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-03-02T03:22:55.393+08:00  INFO 460 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:22:55.442+08:00  INFO 460 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:22:55.472+08:00  INFO 460 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:22:55.778+08:00  INFO 460 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:22:55.808+08:00  INFO 460 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:22:56.117+08:00  INFO 460 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: f3a9b95d-c8da-40e8-8454-a6db40448101
+2025-03-02T03:22:56.119+08:00  INFO 460 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:22:56.170+08:00  WARN 460 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:22:56.193+08:00  INFO 460 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:22:56.931+08:00  INFO 460 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:22:57.169+08:00  INFO 460 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:22:57.544+08:00  WARN 460 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:22:57.869+08:00  INFO 460 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Started YyDemoApplicationTests in 3.853 seconds (process running for 4.744)
+2025-03-02T03:22:58.322+08:00  INFO 460 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:22:58.325+08:00  INFO 460 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:22:58.327+08:00  INFO 460 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:23:11.208+08:00  INFO 7564 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 7564 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:23:11.210+08:00  INFO 7564 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:23:11.681+08:00  INFO 7564 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:23:11.728+08:00  INFO 7564 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-03-02T03:23:12.125+08:00  INFO 7564 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T03:23:12.137+08:00  INFO 7564 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T03:23:12.137+08:00  INFO 7564 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T03:23:12.180+08:00  INFO 7564 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T03:23:12.181+08:00  INFO 7564 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 927 ms
+2025-03-02T03:23:12.353+08:00  INFO 7564 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:23:12.392+08:00  INFO 7564 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:23:12.423+08:00  INFO 7564 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:23:12.643+08:00  INFO 7564 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:23:12.673+08:00  INFO 7564 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:23:12.974+08:00  INFO 7564 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: dac65d61-78ad-4f85-b26c-73d31cefbca5
+2025-03-02T03:23:12.976+08:00  INFO 7564 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:23:13.003+08:00  WARN 7564 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:23:13.021+08:00  INFO 7564 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:23:13.630+08:00  INFO 7564 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:23:13.697+08:00  INFO 7564 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:23:13.911+08:00  WARN 7564 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:23:14.173+08:00  INFO 7564 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T03:23:14.179+08:00  INFO 7564 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.341 seconds (process running for 3.656)
+2025-03-02T03:23:32.138+08:00  INFO 7564 --- [yy-demo] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T03:23:32.138+08:00  INFO 7564 --- [yy-demo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T03:23:32.139+08:00  INFO 7564 --- [yy-demo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-02T03:23:32.176+08:00  INFO 7564 --- [yy-demo] [http-nio-8080-exec-3] c.e.yy_demo.user.service.UserService     : Received GET request for user page: 0
+2025-03-02T03:23:32.324+08:00  INFO 7564 --- [yy-demo] [http-nio-8080-exec-3] c.e.yy_demo.user.service.UserService     : Response: Current Page Users: [User [id=1, name=Yap Yee 1, email=yapyee.1@gmail.com], User [id=2, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=3, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=4, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=5, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=6, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=7, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=8, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=9, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=10, name=Yap Yee 10, email=yapyee.10@gmail.com]]
+2025-03-02T03:23:32.358+08:00  WARN 7564 --- [yy-demo] [http-nio-8080-exec-3] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-03-02T03:24:22.983+08:00  INFO 7564 --- [yy-demo] [http-nio-8080-exec-2] c.e.yy_demo.user.service.UserService     : Received GET request for calling third party Api
+2025-03-02T03:24:24.892+08:00  INFO 7564 --- [yy-demo] [http-nio-8080-exec-2] c.e.yy_demo.user.service.UserService     : Response: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+2025-03-02T03:30:33.882+08:00  INFO 7564 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T03:30:33.887+08:00  INFO 7564 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T03:30:33.889+08:00  INFO 7564 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:30:33.891+08:00  INFO 7564 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:30:33.893+08:00  INFO 7564 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:31:05.054+08:00  INFO 13284 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Starting YyDemoApplicationTests using Java 23.0.2 with PID 13284 (started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:31:05.055+08:00  INFO 13284 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:31:05.619+08:00  INFO 13284 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:31:05.682+08:00  INFO 13284 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2025-03-02T03:31:06.142+08:00  INFO 13284 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:31:06.203+08:00  INFO 13284 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:31:06.241+08:00  INFO 13284 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:31:06.582+08:00  INFO 13284 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:31:06.612+08:00  INFO 13284 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:31:06.943+08:00  INFO 13284 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 26ce7b5a-3add-4e68-8f08-d3abb4adcae2
+2025-03-02T03:31:06.945+08:00  INFO 13284 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:31:07.004+08:00  WARN 13284 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:31:07.028+08:00  INFO 13284 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:31:07.784+08:00  INFO 13284 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:31:08.020+08:00  INFO 13284 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:31:08.388+08:00  WARN 13284 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:31:08.716+08:00  INFO 13284 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Started YyDemoApplicationTests in 3.951 seconds (process running for 4.862)
+2025-03-02T03:31:09.168+08:00  INFO 13284 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:31:09.173+08:00  INFO 13284 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:31:09.179+08:00  INFO 13284 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:31:40.152+08:00  INFO 10496 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 10496 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:31:40.154+08:00  INFO 10496 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:31:40.640+08:00  INFO 10496 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:31:40.688+08:00  INFO 10496 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-03-02T03:31:41.110+08:00  INFO 10496 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T03:31:41.123+08:00  INFO 10496 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T03:31:41.124+08:00  INFO 10496 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T03:31:41.169+08:00  INFO 10496 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T03:31:41.170+08:00  INFO 10496 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 971 ms
+2025-03-02T03:31:41.349+08:00  INFO 10496 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:31:41.390+08:00  INFO 10496 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:31:41.421+08:00  INFO 10496 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:31:41.645+08:00  INFO 10496 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:31:41.675+08:00  INFO 10496 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:31:41.979+08:00  INFO 10496 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 917aca17-336e-4c53-a293-3c74fd7c90d5
+2025-03-02T03:31:41.981+08:00  INFO 10496 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:31:42.031+08:00  WARN 10496 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:31:42.051+08:00  INFO 10496 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:31:42.702+08:00  INFO 10496 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:31:42.942+08:00  INFO 10496 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:31:43.168+08:00  WARN 10496 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:31:43.452+08:00  INFO 10496 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T03:31:43.458+08:00  INFO 10496 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.685 seconds (process running for 4.005)
+2025-03-02T03:31:53.992+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T03:31:53.993+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T03:31:53.994+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T03:31:54.021+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-2] c.e.yy_demo.user.service.UserService     : Received GET request for all users
+2025-03-02T03:31:54.148+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-2] c.e.yy_demo.user.service.UserService     : Response: [User [id=1, name=Yap Yee 1, email=yapyee.1@gmail.com], User [id=2, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=3, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=4, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=5, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=6, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=7, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=8, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=9, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=10, name=Yap Yee 10, email=yapyee.10@gmail.com], User [id=11, name=Yap Yee 11, email=yapyee.11@gmail.com], User [id=12, name=Yap Yee 12, email=yapyee.12@gmail.com], User [id=13, name=Yap Yee 13, email=yapyee.13@gmail.com], User [id=14, name=Yap Yee 14, email=yapyee.14@gmail.com], User [id=15, name=Yap Yee 15, email=yapyee.15@gmail.com], User [id=16, name=Yap Yee 16, email=yapyee.16@gmail.com], User [id=17, name=Yap Yee 17, email=yapyee.17@gmail.com], User [id=18, name=Yap Yee 18, email=yapyee.6@gmail.com], User [id=19, name=Yap Yee 19, email=yapyee.19@gmail.com], User [id=20, name=Yap Yee 20, email=yapyee.20@gmail.com], User [id=21, name=Yap Yee 21, email=yapyee.21@gmail.com], User [id=22, name=Yap Yee 22, email=yapyee.22@gmail.com]]
+2025-03-02T03:32:00.990+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-3] c.e.yy_demo.user.service.UserService     : Received GET request for user ID: 1
+2025-03-02T03:32:01.002+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-3] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1, email=yapyee.1@gmail.com]
+2025-03-02T03:32:10.240+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-4] c.e.yy_demo.user.service.UserService     : Received GET request for user page: 0
+2025-03-02T03:32:10.258+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-4] c.e.yy_demo.user.service.UserService     : Response: Current Page Users: [User [id=1, name=Yap Yee 1, email=yapyee.1@gmail.com], User [id=2, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=3, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=4, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=5, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=6, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=7, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=8, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=9, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=10, name=Yap Yee 10, email=yapyee.10@gmail.com]]
+2025-03-02T03:32:10.262+08:00  WARN 10496 --- [yy-demo] [http-nio-8080-exec-4] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-03-02T03:32:13.272+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-5] c.e.yy_demo.user.service.UserService     : Received GET request for calling third party Api
+2025-03-02T03:32:13.567+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-5] c.e.yy_demo.user.service.UserService     : Response: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+2025-03-02T03:34:12.251+08:00  WARN 10496 --- [yy-demo] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-03-02T03:34:57.620+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-9] c.e.yy_demo.user.service.UserService     : Received PUT request to update user ID: 1, Payload: User [id=null, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:34:57.650+08:00  INFO 10496 --- [yy-demo] [http-nio-8080-exec-9] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:42:34.611+08:00  INFO 10496 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T03:42:34.615+08:00  INFO 10496 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T03:42:34.618+08:00  INFO 10496 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:42:34.619+08:00  INFO 10496 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:42:34.621+08:00  INFO 10496 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:43:04.665+08:00  INFO 12724 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Starting YyDemoApplicationTests using Java 23.0.2 with PID 12724 (started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:43:04.666+08:00  INFO 12724 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:43:05.230+08:00  INFO 12724 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:43:05.282+08:00  INFO 12724 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2025-03-02T03:43:05.744+08:00  INFO 12724 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:43:05.803+08:00  INFO 12724 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:43:05.838+08:00  INFO 12724 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:43:06.157+08:00  INFO 12724 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:43:06.190+08:00  INFO 12724 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:43:06.498+08:00  INFO 12724 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 7a91f2ba-2d1f-4adf-bb3e-cdf9b2d081a1
+2025-03-02T03:43:06.499+08:00  INFO 12724 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:43:06.551+08:00  WARN 12724 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:43:06.573+08:00  INFO 12724 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:43:07.294+08:00  INFO 12724 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:43:07.527+08:00  INFO 12724 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:43:07.894+08:00  WARN 12724 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:43:08.205+08:00  INFO 12724 --- [yy-demo] [main] c.e.yy_demo.YyDemoApplicationTests       : Started YyDemoApplicationTests in 3.826 seconds (process running for 4.705)
+2025-03-02T03:43:08.713+08:00  INFO 12724 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:43:08.715+08:00  INFO 12724 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:43:08.718+08:00  INFO 12724 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T03:43:25.380+08:00  INFO 2248 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Starting YyDemoApplication using Java 23.0.2 with PID 2248 (D:\Eclipse\yy-demo\target\classes started by User in D:\Eclipse\yy-demo)
+2025-03-02T03:43:25.382+08:00  INFO 2248 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:43:25.840+08:00  INFO 2248 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T03:43:25.884+08:00  INFO 2248 --- [yy-demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-03-02T03:43:26.276+08:00  INFO 2248 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T03:43:26.294+08:00  INFO 2248 --- [yy-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T03:43:26.295+08:00  INFO 2248 --- [yy-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T03:43:26.338+08:00  INFO 2248 --- [yy-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T03:43:26.339+08:00  INFO 2248 --- [yy-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 914 ms
+2025-03-02T03:43:26.509+08:00  INFO 2248 --- [yy-demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T03:43:26.549+08:00  INFO 2248 --- [yy-demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T03:43:26.583+08:00  INFO 2248 --- [yy-demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T03:43:26.811+08:00  INFO 2248 --- [yy-demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T03:43:26.839+08:00  INFO 2248 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T03:43:27.137+08:00  INFO 2248 --- [yy-demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: def516db-a55d-488a-84fa-5c16c7627f8f
+2025-03-02T03:43:27.140+08:00  INFO 2248 --- [yy-demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T03:43:27.167+08:00  WARN 2248 --- [yy-demo] [main] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-02T03:43:27.184+08:00  INFO 2248 --- [yy-demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T03:43:27.790+08:00  INFO 2248 --- [yy-demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T03:43:27.860+08:00  INFO 2248 --- [yy-demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:43:28.072+08:00  WARN 2248 --- [yy-demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:43:28.335+08:00  INFO 2248 --- [yy-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T03:43:28.341+08:00  INFO 2248 --- [yy-demo] [main] com.example.yy_demo.YyDemoApplication    : Started YyDemoApplication in 3.326 seconds (process running for 3.644)
+2025-03-02T03:43:34.096+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T03:43:34.096+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T03:43:34.097+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-02T03:43:34.184+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-2] c.e.yy_demo.user.service.UserService     : Received PUT request to update user ID: 1, Payload: User [id=null, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:43:34.245+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-2] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:45:09.459+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-7] c.e.yy_demo.user.service.UserService     : Received GET request for all users
+2025-03-02T03:45:09.576+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-7] c.e.yy_demo.user.service.UserService     : Response: [User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com], User [id=2, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=3, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=4, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=5, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=6, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=7, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=8, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=9, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=10, name=Yap Yee 10, email=yapyee.10@gmail.com], User [id=11, name=Yap Yee 11, email=yapyee.11@gmail.com], User [id=12, name=Yap Yee 12, email=yapyee.12@gmail.com], User [id=13, name=Yap Yee 13, email=yapyee.13@gmail.com], User [id=14, name=Yap Yee 14, email=yapyee.14@gmail.com], User [id=15, name=Yap Yee 15, email=yapyee.15@gmail.com], User [id=16, name=Yap Yee 16, email=yapyee.16@gmail.com], User [id=17, name=Yap Yee 17, email=yapyee.17@gmail.com], User [id=18, name=Yap Yee 18, email=yapyee.6@gmail.com], User [id=19, name=Yap Yee 19, email=yapyee.19@gmail.com], User [id=20, name=Yap Yee 20, email=yapyee.20@gmail.com], User [id=21, name=Yap Yee 21, email=yapyee.21@gmail.com], User [id=22, name=Yap Yee 22, email=yapyee.22@gmail.com]]
+2025-03-02T03:45:24.212+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-8] c.e.yy_demo.user.service.UserService     : Received GET request for user ID: 1
+2025-03-02T03:45:24.218+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-8] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:45:32.233+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-9] c.e.yy_demo.user.service.UserService     : Received PUT request to update user ID: 1, Payload: User [id=null, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:45:32.237+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-9] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:53:07.038+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-6] c.e.yy_demo.user.service.UserService     : Received GET request for calling third party Api
+2025-03-02T03:53:07.532+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-6] c.e.yy_demo.user.service.UserService     : Response: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+2025-03-02T03:53:43.904+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Received GET request for user ID: 1
+2025-03-02T03:53:43.919+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-1] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:53:54.321+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-2] c.e.yy_demo.user.service.UserService     : Received GET request for user ID: 1
+2025-03-02T03:53:54.328+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-2] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:53:58.589+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-3] c.e.yy_demo.user.service.UserService     : Received GET request for user ID: 1
+2025-03-02T03:53:58.592+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-3] c.e.yy_demo.user.service.UserService     : Response: User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com]
+2025-03-02T03:54:02.072+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-5] c.e.yy_demo.user.service.UserService     : Received GET request for all users
+2025-03-02T03:54:02.078+08:00  INFO 2248 --- [yy-demo] [http-nio-8080-exec-5] c.e.yy_demo.user.service.UserService     : Response: [User [id=1, name=Yap Yee 1 updated, email=yapyee.1.updated@example.com], User [id=2, name=Yap Yee 2, email=yapyee.2@gmail.com], User [id=3, name=Yap Yee 3, email=yapyee.3@gmail.com], User [id=4, name=Yap Yee 4, email=yapyee.4@gmail.com], User [id=5, name=Yap Yee 5, email=yapyee.5@gmail.com], User [id=6, name=Yap Yee 6, email=yapyee.6@gmail.com], User [id=7, name=Yap Yee 7, email=yapyee.7@gmail.com], User [id=8, name=Yap Yee 8, email=yapyee.8@gmail.com], User [id=9, name=Yap Yee 9, email=yapyee.9@gmail.com], User [id=10, name=Yap Yee 10, email=yapyee.10@gmail.com], User [id=11, name=Yap Yee 11, email=yapyee.11@gmail.com], User [id=12, name=Yap Yee 12, email=yapyee.12@gmail.com], User [id=13, name=Yap Yee 13, email=yapyee.13@gmail.com], User [id=14, name=Yap Yee 14, email=yapyee.14@gmail.com], User [id=15, name=Yap Yee 15, email=yapyee.15@gmail.com], User [id=16, name=Yap Yee 16, email=yapyee.16@gmail.com], User [id=17, name=Yap Yee 17, email=yapyee.17@gmail.com], User [id=18, name=Yap Yee 18, email=yapyee.6@gmail.com], User [id=19, name=Yap Yee 19, email=yapyee.19@gmail.com], User [id=20, name=Yap Yee 20, email=yapyee.20@gmail.com], User [id=21, name=Yap Yee 21, email=yapyee.21@gmail.com], User [id=22, name=Yap Yee 22, email=yapyee.22@gmail.com]]
+2025-03-02T03:54:22.083+08:00  INFO 2248 --- [yy-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T03:54:22.088+08:00  INFO 2248 --- [yy-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T03:54:22.091+08:00  INFO 2248 --- [yy-demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T03:54:22.093+08:00  INFO 2248 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T03:54:22.095+08:00  INFO 2248 --- [yy-demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

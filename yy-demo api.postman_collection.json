@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "8498b5db-1146-427f-91ab-e63261550c34",
+		"name": "yy-demo api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5462863"
+	},
+	"item": [
+		{
+			"name": "Post Insert Demo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"name\": \"Yap Yee 1\",\r\n    \"email\": \"yapyee.1@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 2\",\r\n    \"email\": \"yapyee.2@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 3\",\r\n    \"email\": \"yapyee.3@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 4\",\r\n    \"email\": \"yapyee.4@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 5\",\r\n    \"email\": \"yapyee.5@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 6\",\r\n    \"email\": \"yapyee.6@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 7\",\r\n    \"email\": \"yapyee.7@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 8\",\r\n    \"email\": \"yapyee.8@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 9\",\r\n    \"email\": \"yapyee.9@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 10\",\r\n    \"email\": \"yapyee.10@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 11\",\r\n    \"email\": \"yapyee.11@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 12\",\r\n    \"email\": \"yapyee.12@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 13\",\r\n    \"email\": \"yapyee.13@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 14\",\r\n    \"email\": \"yapyee.14@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 15\",\r\n    \"email\": \"yapyee.15@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 16\",\r\n    \"email\": \"yapyee.16@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 17\",\r\n    \"email\": \"yapyee.17@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 18\",\r\n    \"email\": \"yapyee.6@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 19\",\r\n    \"email\": \"yapyee.19@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 20\",\r\n    \"email\": \"yapyee.20@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 21\",\r\n    \"email\": \"yapyee.21@gmail.com\"\r\n  },\r\n  {\r\n    \"name\": \"Yap Yee 22\",\r\n    \"email\": \"yapyee.22@gmail.com\"\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Demo Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/view",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"view"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get By ID Demo",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/view/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"view",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Update Demo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Yap Yee 1 updated\",\r\n  \"email\": \"yapyee.1.updated@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/update/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pagination Demo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/paged?page=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"paged"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Third Party API Demo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/external",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"external"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
